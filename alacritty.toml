@@ -1,0 +1,25 @@
+import = [
+  "~/.config/alacritty/themes/everforest_dark.toml"
+]
+
+[window]
+dimensions = { columns = 110, lines = 60 } 
+position = { x = 0, y = 0 }
+padding = { x = 10, y = 10 }
+decorations = "None"
+opacity = 0.9
+blur = true
+
+[font] 
+normal = { family = "Aurulent Sans Mono", style = "Regular" }
+offset = { x = 1, y = 0 }
+size = 12
+
+[keyboard]
+bindings = [
+{action = "SpawnNewInstance", mods = "Control", key = "n"},
+{action = "ToggleFullscreen", mods = "Control", key = "f"},
+{action = "IncreaseFontSize", mods = "Control", key = "="},
+{action = "DecreaseFontSize", mods = "Control", key = "-"},
+{action = "ResetFontSize", mods = "Control", key = "0"}
+]
