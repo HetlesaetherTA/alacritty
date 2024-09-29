@@ -1,13 +1,15 @@
 [window]
-dimensions = { columns = 110, lines = 60 }
+dimensions = { columns = 70, lines = 30 }
 position = { x = 0, y = 0 }
 padding = { x = 10, y = 10 }
-decorations = "None"
 opacity = 0.9
-dynamic_background_blur = true
-startup_mode = "Windowed"
 
 [font] 
 normal = { family = "Aurulent Sans Mono", style = "Regular" }
 offset = { x = 1, y = 0 }
 size = 12
+
+[[keyboard.bindings]]
+key = "Back"
+mods = "Control"
+chars = "\u0017"
