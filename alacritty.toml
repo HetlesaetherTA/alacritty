@@ -1,12 +1,14 @@
 import = [
-  "~/.config/alacritty/themes/everforest_dark.toml",
-#  "~/.config/alacritty/macOS.toml"
+  # "./themes/everforest_dark.toml",
+  # "~/.config/alacritty/macOS.toml",
+  # "./windows.toml"
+  "~/AppData/Roaming/alacritty/themes/everforest_dark.toml",
+  "~/AppData/Roaming/alacritty/windows.toml"
 ]
 
-[font] 
-normal = { family = "Aurulent Sans Mono", style = "Regular" }
-offset = { x = 1, y = 0 }
-size = 12
+[env]
+TERM = 'alacritty'
+
 
 [keyboard]
 bindings = [
