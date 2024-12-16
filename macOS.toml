@@ -1,4 +1,12 @@
 [window]
+
+#dimensions = { columns = 110, lines = 50 } 
+#position = { x = 0, y = 0 }
+#padding = { x = 10, y = 10 }
+# decorations = "None"
+#opacity = 0.8
+#blur = true
+
 dimensions = { columns = 110, lines = 60 }
 position = { x = 0, y = 0 }
 padding = { x = 10, y = 10 }

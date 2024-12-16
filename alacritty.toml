@@ -1,4 +1,6 @@
 import = [
+  #"~/.config/alacritty/themes/everforest_dark.toml",
+  #"~/.config/alacritty/macOS.toml"
   # "./themes/everforest_dark.toml",
   # "~/.config/alacritty/macOS.toml",
   # "./windows.toml"
@@ -9,6 +11,13 @@ import = [
 [env]
 TERM = 'alacritty'
 
+
+[colors]
+primary = { foreground = "#DFDFDF" }  
+cursor = { text = "CellBackground", cursor = "#D19A66" }  
+
+[colors.normal]
+white = "#FFFFFF"  
 
 [keyboard]
 bindings = [
