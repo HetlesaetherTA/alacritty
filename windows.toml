@@ -1,0 +1,15 @@
+[window]
+dimensions = { columns = 70, lines = 30 }
+position = { x = 0, y = 0 }
+padding = { x = 10, y = 10 }
+opacity = 0.9
+
+[font] 
+normal = { family = "Aurulent Sans Mono", style = "Regular" }
+offset = { x = 1, y = 0 }
+size = 12
+
+[[keyboard.bindings]]
+key = "Back"
+mods = "Control"
+chars = "\u0017"
