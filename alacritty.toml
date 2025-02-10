@@ -1,16 +1,21 @@
-import = [
-  #"~/.config/alacritty/themes/everforest_dark.toml",
-  #"~/.config/alacritty/macOS.toml"
-  # "./themes/everforest_dark.toml",
-  # "~/.config/alacritty/macOS.toml",
-  # "./windows.toml"
-  "~/AppData/Roaming/alacritty/themes/everforest_dark.toml",
-  "~/AppData/Roaming/alacritty/windows.toml"
-]
-
 [env]
 TERM = 'alacritty'
 
+[general]
+import = [
+  "~/.config/alacritty/themes/everforest_dark.toml",
+  "~/.config/alacritty/macOS.toml"
+# "./themes/everforest_dark.toml",
+# "~/.config/alacritty/macOS.toml",
+# "./windows.toml"
+# "~/AppData/Roaming/alacritty/themes/everforest_dark.toml",
+# "~/AppData/Roaming/alacritty/windows.toml"
+]
+
+[font] 
+normal = { family = "Aurulent Sans Mono", style = "Regular" }
+offset = { x = 1, y = 0 }
+size = 12
 
 [colors]
 primary = { foreground = "#DFDFDF" }  
@@ -27,3 +32,4 @@ bindings = [
 {action = "DecreaseFontSize", mods = "Control", key = "-"},
 {action = "ResetFontSize", mods = "Control", key = "0"}
 ]
+
